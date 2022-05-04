@@ -1,6 +1,11 @@
 version = 1
 
-exclude_patterns = ["**/vendor/**"]
+exclude_patterns = [
+  "**/vendor/**",
+  "node_modules/**",
+  "log/**",
+  "tmp/**"
+]
 
 [[analyzers]]
 name = "php"
